@@ -86,6 +86,7 @@ cp skill.json ~/.claude/skills/git-commit/skill.json
 - **Clean tree check** — reports clearly if there is nothing to commit
 - **No destructive flags** — never uses `--force` or `--hard`
 - **Wrong-branch protection** — stops if the current branch is already `main`
+- **No AI attribution** — commit message contains only the issue reference, title, and bullets; never appends `Made-with: Cursor`, `Co-Authored-By: Claude`, `Generated with Claude Code`, or any similar footer
 
 ## Related Files
 
