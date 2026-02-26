@@ -22,8 +22,6 @@ Use `/git-commit` when you have finished work on a feature branch (e.g., `gh-135
 - Specific change bullet 1
 - Specific change bullet 2
 - Specific change bullet 3
-
-Co-Authored-By: Full Name <email@example.com>
 ```
 
 ### Example
@@ -34,8 +32,6 @@ Co-Authored-By: Full Name <email@example.com>
 - CSV format: Repair ID (R-xxxxx), Mileage
 - Skip repairs where mileage is already the same
 - Add Import Mileage button and modal to task repairs index
-
-Co-Authored-By: youxingxiang <youxingxiang@carlite.com>
 ```
 
 ## Branch Name → Issue Number Mapping
@@ -53,7 +49,7 @@ Co-Authored-By: youxingxiang <youxingxiang@carlite.com>
 
 ## Workflow Steps
 
-1. **Gather context** — reads branch name, `git config user.name/email`, full diff (`git diff HEAD`), and status
+1. **Gather context** — reads branch name, full diff (`git diff HEAD`), and status
 2. **Extract issue number** — from branch name patterns above
 3. **Analyze diff** — identifies the primary purpose and all concrete changes
 4. **Generate commit message** — shows it to you for review before touching git
