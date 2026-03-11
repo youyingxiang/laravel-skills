@@ -27,6 +27,14 @@ Setup Laravel + Livewire + TailwindCSS + Alpine.js project scaffold with admin d
 
 Export Laravel Eloquent data to CSV files using Livewire components and queue jobs for efficient async processing.
 
+### stripe-connect
+
+Implements Stripe Connect direct charges for multi-tenant platforms. Use when adding Stripe Connect payment processing, implementing connected account payments, handling webhooks for connected accounts, or processing refunds on connected accounts. Covers PaymentIntents on connected accounts, frontend `stripeAccount` usage, idempotency, and webhook routing.
+
+### whatsapp-template-notification
+
+Send WhatsApp template messages via Laravel notifications using WhatsApp Cloud API. Use when you need to send structured template messages (order confirmations, alerts, business notifications) through WhatsApp. Integrates with `netflie/whatsapp-cloud-api`.
+
 ## Usage
 
 These skills are designed to be used with Claude Code. Place them in your `~/.claude/skills/` directory to use them across projects.
